@@ -1,0 +1,522 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: Arial;
+
+}
+body{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+
+   height: 60px;
+   background-color: #00453e;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+  
+}
+
+
+.nav-logo{
+
+height: 50px;
+width: 100px;
+
+}
+
+.logo{
+
+background-image:url(amazon_logo.png) ;
+height: 50px;
+width: 100%;
+background-size: cover;
+
+}
+
+.border{
+
+border: 1.5px solid transparent;
+
+}
+
+.border:hover{
+
+    border: 1.5px solid white;
+    
+    
+
+}
+
+
+
+
+
+.del{
+
+    color:rgb(204, 204, 204);
+    font-size: 1rem;
+    margin-left: 15px;
+}
+
+.pak{
+
+    font-size: 0.85rem;
+    margin: 3px;
+    font-weight: bold;
+}
+
+.address-icon{
+
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+.nav-search{
+
+    display: flex;
+    justify-content: space-evenly;
+    background-color: palevioletred;
+    width: 730px;
+    height: 40px;
+    border-radius: 4px;
+    
+}
+
+.nav-search:hover{
+
+border: 2px solid  rgb(211, 39, 96) ;
+
+}
+
+.select{
+
+background-color: rgb(230, 230, 230);
+width: 50px;
+text-align: center;
+border-bottom-left-radius: 4px;
+border-top-left-radius: 4px;
+border: none;
+}
+
+.input{
+
+width: 100%;
+font-size: 1rem;
+border: none;
+
+
+}
+
+.search-icon{
+
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #ffdfd7;
+    border-top-right-radius: 4px;
+border-bottom-right-radius: 4px;
+color: #00453e;
+}
+
+
+
+
+.nav-flag i{
+
+    font-size: 1.2rem;
+    
+}
+
+.nav-flag{
+    font-weight: 700;
+    margin-top: 8px;
+    
+}
+
+
+
+
+
+
+
+span{
+
+    font-size: 0.7rem;
+}
+
+.line2{
+
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+
+
+
+.cart i{
+
+font-size: 30px;
+
+}
+
+.cart{
+
+font-size: 0.85rem;
+font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+.panel{
+
+    height: 40px;
+    background-color: #0b6e65;
+color: white;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+
+}
+
+.ops p{
+    display: inline;
+    margin-left: 15px;
+    
+}
+
+.ops{
+
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.end{
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+
+
+
+
+
+.pic{
+
+background-image: url(food.jpg);
+height: 270px;
+background-size: cover;
+
+}
+
+
+
+
+.shop{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #f0e3c6;
+}
+
+
+.box{
+
+    height: 400px;
+    
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+
+}
+
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-position: center center;
+    
+}
+
+.box-content{
+
+    margin-left: 1rem;
+    margin-right: 1rem;
+    box-sizing: border-box;
+    
+}
+
+.shop p{
+
+    color: #0b6e65;
+}
+
+
+footer{
+    margin-top: 40px;
+}
+
+
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+
+
+
+
+}
+
+.foot-panel2{
+
+    background-color: #222f3d;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+
+    margin-top: 20px;
+    color: #dddddd;
+}
+
+ul a{
+
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+
+.foot-panel3{
+
+    background-color:#222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+
+    background-image: url(amazon_logo.png);
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+
+}
+
+.foot-panel4{
+
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+
+}
+
+.pages{
+
+font-size: 0.7rem;
+text-align: center;
+padding: 25px;
+}
+
+.copyright{
+
+padding-top: 5px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+    /* Your styles for screens with a maximum width of 500 pixels or less go here */
+   .nav-address{
+    position: absolute;
+    top: 116px;
+    left: 14px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+   }
+
+    
+  /* .ww{
+    min-width: 120vw;
+  } */
+  .location{
+    transform: translateX(-120px)
+   }
+
+.pak{
+    transform: translateX(-33px)
+}
+
+
+.select{
+    width: 61px;
+}
+input{
+    padding-left: 12px;
+}
+
+   .nav-flag{
+    display: none;
+   } 
+
+   .return{
+    display: none;
+   }
+
+   .line2{
+    display: none;
+   }
+
+   .nav-bar{
+    height: 107px;
+    min-width: 107vw;
+   }
+
+   .panel{
+    min-width: 107vw;
+   }
+   .nav-search {
+    transform: translateY(17px);
+    position: absolute;
+    /* left: 9px; */
+    width: 94vw;
+   }
+
+   .logo{
+    transform: translateY(-30px);
+   }
+
+   .account{
+    transform: translateY(-33px);
+    display: none;
+   }
+
+   .cart{
+    transform: translateY(-30px);
+margin-right: 10px;
+   }
+
+
+.all{
+    z-index: 34;
+    transform: translateY(-106px);
+    position: relative;
+    left: 18px;
+
+}
+
+.all i{
+    font-size: 30px;
+    transform: translateX(-169px);
+    position: relative;
+    top: 3px;
+
+}
+
+.all p{
+    display: none;
+
+}
+
+.ops{
+    display: none;
+}
+
+.end{
+    display: none;
+}
+
+.pic{
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 107vw;
+    height: 149px;
+  }
+
+  .box {
+    width: 44%; /* Adjusted width for 2 columns layout on smaller screens */
+    height: 280px;
+  }
+
+  .box-img{
+    height: 135px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+ .shop{
+    min-width: 107vw;
+}
+
+/* .box-content p{
+    display: none;
+} */
+
+#nichy{
+    transform: translateY(4px)
+}
+footer{
+    min-width: 107vw;
+}
+
+.foot-panel1{
+    height: 40px;
+    transform: translateY(10px);
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    min-height: 450px;
+   
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 35px;
+}
+
+
+.copyright{
+    transform: translateY(-10px);
+}
+
+}
+  
